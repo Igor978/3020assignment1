@@ -36,20 +36,21 @@ body {
 
 /* Oleg's CSS for content and Footer */
 
-#content {
+.content {
   width: 800px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   color: #8B0000;
+  background-color:pink;
 }
-<style>
+
 .footer{
   position: fixed;
   left: 0;
   bottom: 0;
   width:100%;
   color: #FFD700;
+  background-color: green;
   text-align: center;
 }
-</style>
