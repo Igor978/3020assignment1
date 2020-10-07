@@ -1,5 +1,14 @@
-
-.c3{width: 100%;}
+.search Input{
+  width: 60%;
+  height: 20%;
+}
+.search > p{
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 body {
   margin: 0;
   background-color: black;
@@ -35,10 +44,13 @@ body {
 }
 
 /* Oleg's CSS for content and Footer */
-
+.main
+{
+  width:  auto;
+  height: 1000px;
+}
 .title {
-  width: auto;
-  height: 20%;
+  height: 10%;
   margin-left: auto;
   margin-right: auto;
   color: #8B0000;
@@ -47,15 +59,14 @@ body {
 
 .content
 {
-  width:auto;
-  height: 100%;
+  height: 80%;
   margin-left:auto;
   margin-right:auto;
   background-color:red;
 }
 
 .footer{
-  position: fixed;
+  height: 10%;
   left: 0;
   bottom: 0;
   width:100%;
