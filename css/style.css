@@ -59,12 +59,20 @@ body {
 
 .content
 {
-  height: 80%;
   margin-left:auto;
   margin-right:auto;
   background-color:red;
+  overflow: auto;
 }
-
+.content-entry
+{
+	border: 2px solid white;
+	overflow: auto;
+	width: 95%;
+	height: 250px;
+	margin:auto;
+	margin-bottom: 5px;
+}
 .footer{
   height: 10%;
   left: 0;
