@@ -61,17 +61,27 @@ body {
 {
   margin-left:auto;
   margin-right:auto;
+  margin-top: 1px;
   background-color:red;
   overflow: auto;
 }
 .content-entry
 {
-	border: 2px solid white;
+	margin:auto;
 	overflow: auto;
 	width: 95%;
 	height: 250px;
+	margin-top: -1px;
+	margin-bottom:-1px;
+}
+hr
+{
 	margin:auto;
-	margin-bottom: 5px;
+	width: 95%;
+	border-top: 1px solid white;
+}
+.content-entry:hover{
+	border:2px solid white;
 }
 .footer{
   height: 10%;
