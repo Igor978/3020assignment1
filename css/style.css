@@ -162,9 +162,11 @@ hr
   bottom: 0;
   width:95%;
   color: #FFD700;
-  margin:auto;
+  margin: auto;
+  margin-top:50px;
   overflow:auto;
   padding:20px;
   text-align:center;
   display:flex;
+
 }
