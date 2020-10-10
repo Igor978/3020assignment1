@@ -1,3 +1,8 @@
+.search{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
 .search Input{
   width: 60%;
   height: 20%;
@@ -51,11 +56,10 @@ body {
 }
 .title {
   height: 8%;
-  margin-left: 47px;
-  margin-right: auto;
-  
+  width:95%;
+  overflow:auto;
+  margin:auto;
   padding:20px;
-  
   color: #8B0000;
 }
 
