@@ -64,7 +64,32 @@ body {
   margin-top: 1px;
   background-color:red;
   overflow: auto;
+  width: 100%;
+  font-size:0;
 }
+#left, #middle, #right 
+{
+	display: inline-block; 
+	vertical-align: top; 
+	font-size: 12px; 
+	height: 100%
+}
+#left 
+{
+	width: 25%; 
+	background: blue; 
+}
+#middle
+{
+	width: 50%;
+	background: green;
+}
+#right 
+{
+	width: 25%; 
+	background: yellow;
+}
+
 .content-entry
 {
 	margin:auto;
