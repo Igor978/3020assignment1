@@ -102,7 +102,14 @@ body {
 .vertical-menu a {
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
-  padding: 5px; /* Add some padding */
+
+/*pushes text into middle of div */
+	position: relative;
+	top: 50%;
+	transform: translateY(250%);
+/*THIS IS IT  */
+
+   padding: 5px;  /*Add some padding */
   text-decoration: none; /* Remove underline from links */
 }
 
