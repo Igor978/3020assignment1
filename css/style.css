@@ -160,7 +160,11 @@ hr
   height: 10%;
   left: 0;
   bottom: 0;
-  width:100%;
+  width:95%;
   color: #FFD700;
-  text-align: center;
+  margin:auto;
+  overflow:auto;
+  padding:20px;
+  text-align:center;
+  display:flex;
 }
