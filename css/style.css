@@ -65,7 +65,6 @@ body {
   padding:20px;
   
   color: #8B0000;
-  background-color:pink;
 }
 
 .content
@@ -73,10 +72,21 @@ body {
   margin-left:auto;
   margin-right:auto;
   margin-top: 1px;
-  background-color:red;
   overflow: auto;
   width: 100%;
   font-size:0;
+}
+
+#featured{
+	background-color:#cfcfcf38;
+}
+#featured-text{
+	position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: darkgrey;
+    font-weight: bold;
 }
 #left, #middle, #right 
 {
@@ -88,7 +98,6 @@ body {
 #left 
 {
 	width: 25%; 
-	background: blue; 
 	overflow:hidden;
 }
 #left img{
@@ -103,7 +112,6 @@ body {
 {
 	width: 50%;
 	height:100%;
-	background: green;
 }
 .vertical-menu {
   width: fit-content;
@@ -132,7 +140,6 @@ body {
 #right 
 {
 	width: 25%; 
-	background: yellow;
 }
 
 .content-entry
@@ -159,6 +166,5 @@ hr
   bottom: 0;
   width:100%;
   color: #FFD700;
-  background-color: green;
   text-align: center;
 }
