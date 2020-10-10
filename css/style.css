@@ -50,9 +50,12 @@ body {
   height: 1000px;
 }
 .title {
-  height: 10%;
-  margin-left: auto;
+  height: 8%;
+  margin-left: 47px;
   margin-right: auto;
+  
+  padding:20px;
+  
   color: #8B0000;
   background-color:pink;
 }
