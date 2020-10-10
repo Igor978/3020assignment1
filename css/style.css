@@ -78,7 +78,16 @@ body {
 {
 	width: 25%; 
 	background: blue; 
+	overflow:hidden;
 }
+#left img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
 #middle
 {
 	width: 50%;
