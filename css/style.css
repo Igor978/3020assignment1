@@ -122,21 +122,28 @@ body {
 	color: white; 
 }
 .vertical-menu {
-  width: fit-content;
-  height: fit-content;
+padding-top: 50px;
+    width: fit-content;
+    position: relative;
+    height: 100%;
   
 }
 
-.vertical-menu a {
+.content-text {
   
-  display: block;
-	overflow:none;
-	position: relative;
-	top: 50%;
-	transform: translateY(250%);
-   padding: 5px;  
-  text-decoration: none;
-  
+    display: inline;
+    position: relative;
+    text-decoration: none;
+}
+.dot {
+     height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    display: inline-block !important;
+}
+.dots{
+	padding-top: 15px;
+	margin-left: 5px;
 }
 
 .vertical-menu a:hover {
