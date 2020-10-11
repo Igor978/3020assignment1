@@ -18,7 +18,7 @@
     border-color: #cccccc;
 }
 .search > p{
-  color: white;
+  color: #FFFFFF;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -26,7 +26,7 @@
 }
 body {
   margin: 0;
-  background-color: black;
+  background-color: #000000;
   font-family: GeForce,Helvetica,Arial,Sans-Serif;
 }
 .topnav{
@@ -50,12 +50,12 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #000000;
 }
 
 .topnav a.active {
   background-color: #4CAF50;
-  color: white;
+  color: #FFFFFF;
 }
 
 /* Oleg's CSS for content and Footer */
