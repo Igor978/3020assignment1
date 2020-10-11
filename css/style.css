@@ -223,7 +223,18 @@ hr
   padding:10px;
   text-align:center;
   display:flex;
+  
 }
+ul{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+     }
+     li
+     {
+       float: left;
+     }
 
 
 /*Repeated code for the footer */
