@@ -2,10 +2,11 @@
 	display:flex;
 	justify-content:space-between;
 	width:100%;
+
 }
 .search Input{
   width: 60%;
-  height: 20%;
+  height: 44px;
 }
 .search > p{
   color: white;
