@@ -169,3 +169,28 @@ hr
   text-align:center;
   display:flex;
 }
+
+
+/*Repeated code for the footer */
+.topnavclone{
+  display: flex;
+  justify-content: center;
+}
+.topnavclone >a{
+  width: 100%;
+  background-color: #000000;
+  font-family: GeForce,Helvetica,Arial,Sans-Serif;
+}
+
+.topnavclone a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topnavclone a.active {
+  background-color: #4CAF50;
+  color: white;
