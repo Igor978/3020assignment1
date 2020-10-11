@@ -79,7 +79,7 @@ body {
   margin-left:auto;
   margin-right:auto;
   margin-top: 1px;
-  overflow: auto;
+  overflow: none;
   width: 100%;
   font-size:0;
 }
@@ -124,11 +124,13 @@ body {
 .vertical-menu {
   width: fit-content;
   height: fit-content;
+  
 }
 
 .vertical-menu a {
   
   display: block;
+	overflow:none;
 	position: relative;
 	top: 50%;
 	transform: translateY(250%);
@@ -139,6 +141,7 @@ body {
 
 .vertical-menu a:hover {
   background-color: #ccc; 
+
 }
 
 
@@ -146,12 +149,17 @@ body {
 {
 	width: 25%; 
 	color:white;
+	font-size:19px;
+	margin-top: 20px;
+
+	
+	
 }
 
 .content-entry
 {
 	margin:auto;
-	overflow: auto;
+	overflow: none;
 	width: 95%;
 	height: 250px;
 	margin-top: -1px;
