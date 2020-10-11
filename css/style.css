@@ -13,6 +13,17 @@
 	width: 50px;
     height: 50px;
 }
+.cartNum{
+  position: relative;
+  text-align: center;
+  color: #4CAF50;
+}
+.bottom-left{
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+  font-weight:bold;
+}
 #searchbar{
 	background-color: #cccccc;
     border-color: #cccccc;
@@ -79,7 +90,6 @@ body {
   margin-left:auto;
   margin-right:auto;
   margin-top: 1px;
-  overflow: none;
   width: 100%;
   font-size:0;
 }
@@ -95,19 +105,19 @@ body {
     color: darkgrey;
     font-weight: bold;
 }
-#left, #middle, #right 
+.left, .middle, .right 
 {
 	display: inline-block; 
 	vertical-align: middle; 
 	font-size: 12px; 
 	height: 100%
 }
-#left 
+.left 
 {
 	width: 25%; 
 	overflow:hidden;
 }
-#left img{
+.left img{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -115,7 +125,7 @@ body {
   height: 100%;
 }
 
-#middle
+.middle
 {
 	width: 50%;
 	height:100%;
@@ -145,28 +155,48 @@ padding-top: 50px;
 	padding-top: 15px;
 	margin-left: 5px;
 }
-
+.dot a:hover {
+  background-color: gray; 
+}
+.dot a:active {
+  border-color: black; 
+}
 .vertical-menu a:hover {
   background-color: #ccc; 
 
 }
 
 
-#right 
+.right 
 {
+
 	width: 25%; 
 	color:white;
 	font-size:19px;
 	margin-top: 20px;
+	/*padding-right:2px;*/
+	text-align:right;
 
 	
 	
+}
+.button{
+  margin-right: 20px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align:middle;
+  font-size: 16px;
+  margin-top:20px;
+ 
 }
 
 .content-entry
 {
 	margin:auto;
-	overflow: none;
 	width: 95%;
 	height: 250px;
 	margin-top: -1px;
@@ -219,3 +249,4 @@ hr
 .topnavclone a.active {
   background-color: #4CAF50;
   color: white;
+}
