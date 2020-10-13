@@ -1,3 +1,6 @@
+<!--                      Created BY:	               -->
+<!-- Oleg I. [215 045 479] and Andrew B. [213 507 652] -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,31 +12,35 @@
 </head>
 <body>
   
-<!-- Start your code here -->
     <!-- Search + Logo -->
     <div class="search">
         <img src="images/mLogo.png" alt="Company Logo" style="width:50px;height:50px;">
         <input id="searchbar" type="text" placeholder="Search..">
+		<!-- Icon Button + Text on Image -->
 		<div class="cartNum">
 			<input type="image" id="cart" alt="checkout" src="images/checkoutICON.png"> 
 			<div class="top-right">1</div>
 		</div>
 	</div>
-    <!-- end -->
+
+	<!-- Navigation Tabs -->
     <div class="topnav">
       <a class="active" href="#home">Shop</a>
       <a href="#news">Products</a>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
     </div>
-      
-<!-- Oleg's Code here -->
-  <div class="main">
-      <div class ="title">
-          <h1>AMAZING COVID-BLOCKING ULTRA ELITE MASKS</h1>
-      </div>
-      <div class ="content">
-		  <div class="content-entry" id="featured">
+    
+	<!-- Main Page -->
+	<div class="main">
+		<!-- Title Section -->
+		<div class ="title">
+			<h1>AMAZING COVID-BLOCKING ULTRA ELITE MASKS</h1>
+		</div>
+		<!-- Content Section with 3 Vertical Dividers -->
+		<!-- Adding product information into the Vertical Dividers -->
+		<div class ="content">
+			<div class="content-entry" id="featured">
 				<div class="left"><p id="featured-text">Featured</p><img alt= "mask1" src="images/mask1.png"></div>
 				<div class="middle">
 					<div class="vertical-menu">
@@ -43,6 +50,7 @@
 						<span style="font-size:10px; color: green">&gt;</span> Donec rutrum mollis quam, a volutpat orci imperdiet at.<br>
 						<span style="font-size:10px; color: green">&gt;</span> Aliquam erat volutpat.<br>
 						</span>
+						<!-- Colour Options + indicators -->
 						<div class="dots">
 							<a>Color Options</a><br>
 							<a style="background-color: green;" class="dot"></a>
@@ -50,7 +58,7 @@
 							<a style="background-color: white;" class="dot"></a>
 							<a style="background-color: blue;" class="dot"></a>
 						</div>
-						
+						<!-- Size options + # of items -->
 						<div class="dropdown-sizes">
 							<button class="dropbtn">Sizes</button>
 							<div class="dropdown-content">
@@ -71,7 +79,7 @@
 				</div>
 				<div class="right"> 
 				<p style="margin-right: 20px;">$699.99</p> 
-				<button class ="button">Add to Cart</button>
+				<a href = #cartAdd><button class ="button">Add to Cart</button></a>
 				</div>
 		  </div>
 		  <hr>
@@ -114,7 +122,7 @@
 				</div>
 				<div class="right">
 					<p style="margin-right: 20px;">$700.99</p>
-					<button class ="button">Add to Cart</button>
+					<a href = #cartAdd><button class ="button">Add to Cart</button></a>
 				</div>
 		  </div>
 		  <hr>
@@ -155,7 +163,7 @@
 				</div>
 				<div class="right">
 					<p style="margin-right: 20px;">$700.99</p>
-					<button class ="button">Add to Cart</button>
+					<a href = #cartAdd><button class ="button">Add to Cart</button></a>
 				</div>
 		  </div>
 		  <hr>
@@ -196,7 +204,7 @@
 				</div>
 				<div class="right">
 					<p style="margin-right: 20px;">$700.99</p>
-					<button class ="button">Add to Cart</button>
+					<a href = #cartAdd><button class ="button">Add to Cart</button></a>
 				</div>
 		  </div>
 		  <hr>
@@ -237,7 +245,7 @@
 				</div>
 				<div class="right">
 					<p style="margin-right: 20px;">$700.99</p>
-					<button class ="button">Add to Cart</button>
+					<a href = #cartAdd><button class ="button">Add to Cart</button></a>
 				</div>
 		  </div>
       </div>
@@ -245,13 +253,12 @@
 	 <!-- Footer Code -->
      <div class="footer"> 
 		<div class="topnavclone">
-		<ul>
-			<li><a href="#home">Shop</a></li>
-			<li><a href="#news">Products</a></li>
-			<li><a href="#contact">Contact</a> </li>
-			<li><a href="#about">About</a> </li>
-		</ul>
+			<ul>
+				<li><a href="#home">Shop</a></li>
+				<li><a href="#news">Products</a></li>
+				<li><a href="#contact">Contact</a> </li>
+				<li><a href="#about">About</a> </li>
+			</ul>
 		</div>
-
 	</div>     
 </div>
