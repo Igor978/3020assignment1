@@ -1,3 +1,4 @@
+/* Search Section CSS */
 .search{
 	display:flex;
 	justify-content:space-between;
@@ -9,6 +10,18 @@
   height: 44px;
  
 }
+.search > p{
+  color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#searchbar{
+	background-color: #cccccc;
+    border-color: #cccccc;
+}
+/* Checkout Icon Button + Text Over Image */
 #cart{
 	width: 50px;
     height: 50px;
@@ -34,22 +47,14 @@
   height:18px;
   
 }
-#searchbar{
-	background-color: #cccccc;
-    border-color: #cccccc;
-}
-.search > p{
-  color: #FFFFFF;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
+
+/* body CSS */
 body {
   margin: 0;
   background-color: #000000;
   font-family: GeForce,Helvetica,Arial,Sans-Serif;
 }
+/* Navigation CSS */
 .topnav{
   display: flex;
   justify-content: center;
@@ -79,12 +84,15 @@ body {
   color: #FFFFFF;
 }
 
-/* Oleg's CSS for content and Footer */
+
+/* Main Page CSS */
 .main
 {
   width:  auto;
   height: 1000px;
 }
+
+/* title section CSS */
 .title {
   height: 8%;
   width:95%;
@@ -95,6 +103,7 @@ body {
   font-family: GeForce,Helvetica,Arial,Sans-Serif;
 }
 
+/* content CSS */
 .content
 {
   margin-left:auto;
@@ -103,7 +112,25 @@ body {
   width: 100%;
   font-size:0;
 }
+.content-text {
+  
+    display: inline;
+    position: relative;
+    text-decoration: none;
+}
+.content-entry
+{
+	margin:auto;
+	width: 95%;
+	height: 250px;
+	margin-top: -1px;
+	margin-bottom:-1px;
+}
+.content-entry:hover{
+	border:2px solid #666666;
+}
 
+/* Featured Section */
 #featured{
 	background-color:#1a1a1a;
 }
@@ -115,6 +142,8 @@ body {
     color: darkgrey;
     font-weight: bold;
 }
+
+/* Vertical Dividers in Content CSS */
 .left, .middle, .right 
 {
 	display: inline-block; 
@@ -151,12 +180,7 @@ padding-top: 50px;
   
 }
 
-.content-text {
-  
-    display: inline;
-    position: relative;
-    text-decoration: none;
-}
+
 .dot:hover {
    height: 18px!important;
    width: 18px!important;
@@ -221,7 +245,6 @@ padding-top: 50px;
   background-color: #3e8e41;
 }
 
-
 .right 
 {
 
@@ -248,25 +271,22 @@ padding-top: 50px;
 .button:hover{
 	background-color: #ddd;
     color: #000000;
+	cursor:pointer;
+}
+.button a.active{
+	background-color: #ddd;
+    color: #000000;
+	
 }
 
-.content-entry
-{
-	margin:auto;
-	width: 95%;
-	height: 250px;
-	margin-top: -1px;
-	margin-bottom:-1px;
-}
+
 hr
 {
 	margin:auto;
 	width: 95%;
 	border-top: 1px solid #666666;
 }
-.content-entry:hover{
-	border:2px solid #666666;
-}
+/* Footer Code with Navigation Clone */
 .footer{
   height: 10%;
   left: 0;
@@ -281,6 +301,7 @@ hr
   display:flex;
   
 }
+/* Footer List code */
 ul{
        list-style-type: none;
        margin: 0;
